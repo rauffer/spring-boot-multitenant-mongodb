@@ -108,7 +108,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/rauffer/spring-boot-multitenant-mongodb.git</connection>
-		<developerConnection>scm:git:ssh://github.com:rauffer/spring-boot-multitenant-mongodb.git</developerConnection>
+		<developerConnection>scm:git:https://github.com:rauffer/spring-boot-multitenant-mongodb.git</developerConnection>
 		<url>http://github.com/rauffer/spring-boot-multitenant-mongodb/tree/master</url>
 	</scm>
 
