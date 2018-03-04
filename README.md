@@ -54,3 +54,8 @@ spring.data.mongodb.tenant-prefix=my-prefix
 
 When `MultitenantMongoDbFactory` finds this property, the result is `my-prefix-tenant1` instead of `sample-tenant1`.
 
+> If you don't provide a TenantProvider implementation or if your TenantProvider return null, the factory  will assume the default database name ("sample" in the previous example).
+
+
+
+
