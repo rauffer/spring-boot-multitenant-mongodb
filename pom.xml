@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.lobo.rauffer.springboot.multitenant.mongodb</groupId>
 	<artifactId>spring-boot-multitenant-mongodb</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<description>A useful Mongodb factory which allows applications to choose the database name at runtime.</description>
 	<url>http://raufferlobo.com/en/post/multitenancy-with-spring-boot-and-mongodb</url>
@@ -110,7 +109,8 @@
 		<connection>scm:git:git://github.com/rauffer/spring-boot-multitenant-mongodb.git</connection>
 		<developerConnection>scm:git:https://github.com/rauffer/spring-boot-multitenant-mongodb.git</developerConnection>
 		<url>http://github.com/rauffer/spring-boot-multitenant-mongodb/tree/master</url>
-	</scm>
+	  <tag>1.0.1</tag>
+  </scm>
 
 	<distributionManagement>
 		<snapshotRepository>
