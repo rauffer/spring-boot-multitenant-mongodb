@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.raufferlobo.springboot.multitenant.mongodb</groupId>
 	<artifactId>spring-boot-multitenant-mongodb</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<description>An useful Mongodb factory which allows applications to choose the database name at runtime.</description>
 	<url>http://raufferlobo.com/en/post/multitenancy-with-spring-boot-and-mongodb</url>
@@ -109,7 +109,7 @@
 		<connection>scm:git:git://github.com/rauffer/spring-boot-multitenant-mongodb.git</connection>
 		<developerConnection>scm:git:https://github.com/rauffer/spring-boot-multitenant-mongodb.git</developerConnection>
 		<url>http://github.com/rauffer/spring-boot-multitenant-mongodb/tree/master</url>
-	  <tag>1.0.2</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
