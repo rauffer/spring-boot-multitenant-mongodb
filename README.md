@@ -7,7 +7,17 @@ For each request made by a user, Spring data asks the mongodb factory which data
 
 ## Setting up your application
 
-Enable Spring boot auto configuration using the`@EnableAutoConfiguration` annotation.
+Add the Maven dependency:
+
+```xml
+<dependency>
+	<groupId>com.raufferlobo.springboot.multitenant.mongodb</groupId>
+	<artifactId>spring-boot-multitenant-mongodb</artifactId>
+	<version>1.0.2</version>
+</dependency>
+```            
+
+Enable Spring boot auto configuration using the`@EnableAutoConfiguration` annotation:
 
 ```java
 @SpringBootApplication
